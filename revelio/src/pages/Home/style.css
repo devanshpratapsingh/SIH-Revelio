@@ -1,0 +1,70 @@
+.home{
+    padding-top: 120px;
+    background: #170627;
+    height: 100vh;
+}
+.home__body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.home__body__heading{
+        /* position: absolute; */
+    width: 907px;
+    height: 250px;
+    /* left: 272px;
+    top: 213px; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100px;
+    /* or 94% */
+
+    text-align: center;
+    letter-spacing: 0.015em;
+
+    background: linear-gradient(88.04deg, #EE787B 22.54%, #E153F2 41.08%, #495BE0 65.25%, #6A39F3 86.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+.home__body__mid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 100px;
+}
+.home__body__placeList{
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 700px;
+    padding-bottom: 50px;
+}
+.home__body__placeList__itme{
+    /* position: absolute; */
+    width: 150px;
+    height: 26px;
+    /* left: 189px;
+    top: 768px; */
+
+    font-family: 'Be Vietnam pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+
+    color: rgba(255, 255, 255, 0.6);
+
+}

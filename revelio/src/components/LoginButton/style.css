@@ -1,0 +1,21 @@
+.loginButton__button{
+    background: #170627;
+    box-shadow: 0px 6px 15px rgba(255, 0, 184, 0.3);
+    border-radius: 20px;
+    width: 210px;
+    height: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #E5E5E5;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
