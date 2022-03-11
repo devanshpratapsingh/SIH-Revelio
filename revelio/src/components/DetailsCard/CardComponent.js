@@ -1,14 +1,14 @@
 import React from "react";
 	
 	import { Card, CardBody, Col, Button, CardImg } from "reactstrap";
-	
+	import "./style.css"
 	import { Fade } from "react-reveal";
 	
 	const CardComponent = ({ data }) => {
 		return (
 			<Col lg="6">
 				<Fade bottom duration={1000} distance="40px">
-					<Card className="shadow-lg--hover shadow mt-4">
+					<Card className="shadow-lg--hover shadow mt-4 small">
                         <CardImg
                         alt="Card image cap"
                         src="https://drive.google.com/uc?export=view&id=197NOUxG174_z9lJmVKMN_4xTE9HpqaJh"
@@ -22,23 +22,20 @@ import React from "react";
                                     <h3>Card</h3>
 									{/* <p className="description mt-3">{data.desc}</p> */}
                                     <p className="description mt-3">abc</p>
-									{/* {data.github ? ( */}
+									{/* {data.price ? ( */}
 										<Button
 											className="btn-icon"
-											color="github"
-											// href={data.link}
+											color=""
+											// href={data.price}
 											target="_blank"
 										>
-											<span className="btn-inner--icon">
-												<i className="fa fa-github" />
-											</span>
 										</Button>
-									{/* ) : null} */}
-									{/* {data.link ? ( */}
+									 {/* ) : null}  */}
+									 {/* {data.detail ? (  */}
 										<Button
 											className="btn-icon"
-											color="success"
-											// href={data.link}
+											color=""
+											// href={data.detail}
 											target="_blank"
 										>
 											<span className="btn-inner--icon">
@@ -48,7 +45,7 @@ import React from "react";
 												Demo
 											</span>
 										</Button>
-									{/* ) : null} */}
+									 {/* ) : null}  */}
 								</div>
 							</div>
 						</CardBody>

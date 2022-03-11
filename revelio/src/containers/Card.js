@@ -1,6 +1,6 @@
 import React from 'react';
 	
-	import { cardata } from '../components/cards/cardcomp';
+	import { cardata } from '../components/cards/carddata';
 	import {
 	    Container,
 	    Row,
@@ -20,7 +20,7 @@ import React from 'react';
 	                        </div>
 	                    </div>
 	                    <div className="pl-4">
-	                        <h4 className="display-3 text-info">Projects</h4>
+	                        <h4 className="display-3 text-info">Places</h4>
 	                    </div>
 	                </div>
 	                <Row className="row-grid align-items-center">
