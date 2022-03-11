@@ -29,6 +29,9 @@ import React from "react";
 											// href={data.price}
 											target="_blank"
 										>
+										<span className="nav-link-inner--text ml-1">
+										Demo
+										</span>
 										</Button>
 									 {/* ) : null}  */}
 									 {/* {data.detail ? (  */}
