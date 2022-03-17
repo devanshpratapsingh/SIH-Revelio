@@ -3,6 +3,7 @@ import BigSearch from '../../components/BigSeaarch';
 import Header from '../../components/Header';
 import CardCom from "../../components/DetailsCard/CardComponent"
 import './style.css'
+import Car from '../../components/DetailsCard/car';
 
 const Home = () => {
 
@@ -23,10 +24,10 @@ const Home = () => {
                     <div className='home__body__placeList__itme'>Karnatka</div>
                     <div className='home__body__placeList__itme'>Tamil Nadu</div>
                 </div>
-                <div >
-                    <CardCom />
-                    <CardCom />
-                    <CardCom />
+                <div className='size'>
+                    <Car />
+                    <Car />
+                    <Car />
                 </div>
             </div>
         </div>

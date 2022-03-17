@@ -1,11 +1,10 @@
-.small{
-    height: 45%;
-    width: 45%;
-}
-.display{
-    display:flex;
-}
-.flex{
-    display: flex;
+.size{
+    display: flexbox;
     flex-direction: row;
+}
+.mar{
+    margin-right: 3rem;
+}
+.but{
+    display: flex;
 }
