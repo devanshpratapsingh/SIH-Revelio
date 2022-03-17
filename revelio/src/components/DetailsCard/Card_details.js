@@ -4,13 +4,11 @@ import React from "react";
 	import "./style.css"
 	import { Fade } from "react-reveal";
 	
-	const CardComponent = ({ data }) => {
+	function CardComponent(props) {
 		return (
-			
-			<Col lg="6">
+			<Col lg="4">
 				<Fade bottom duration={1000} distance="40px">
-				<div className="display">
-					<Card className="shadow-lg--hover shadow mt-4 small flex">
+					<Card className="shadow-lg--hover shadow mt-3 small">
                         <CardImg
                         alt="Card image cap"
                         src="https://drive.google.com/uc?export=view&id=197NOUxG174_z9lJmVKMN_4xTE9HpqaJh"
@@ -20,10 +18,10 @@ import React from "react";
 						<CardBody>
 							<div className="d-flex px-3">
 								<div className="pl-4">
-									{/* <h3>{data.name}</h3> */}
-                                    <h3>Card</h3>
-									{/* <p className="description mt-3">{data.desc}</p> */}
-                                    <p className="description mt-3">abc</p>
+									<h3>{props.name}</h3>
+                                    {/* <h3>Card</h3> */}
+									<p className="description mt-3">{props.desc}</p>
+                                    {/* <p className="description mt-3">abc</p> */}
 									{/* {data.price ? ( */}
 										<Button
 											className="btn-icon"
@@ -55,10 +53,8 @@ import React from "react";
 							</div>
 						</CardBody>
 					</Card>
-					</div>
 				</Fade>
 			</Col>
-			
 		);
 	};
 	

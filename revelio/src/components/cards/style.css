@@ -1,8 +1,40 @@
-.img{
+/* .img{
     width: 300px;
     height: 300px;
     border-bottom-right-radius: 70%;
     position: fixed;
     top: -30px;
     left: -30px;
+} */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 575px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url(https://drive.google.com/uc?export=view&id=1L7UvSQp3NIjH8voi3byHdcyhwbp8ST2_) no-repeat center center/cover;
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
+    height: 50%;
+    width: 90%;
+    z-index: -2;
+    /* margin: 15px 15px 15px 15px; */
+    opacity: 0.8;
+}
+#home h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 6rem;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
 }

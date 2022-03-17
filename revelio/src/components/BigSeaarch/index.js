@@ -5,7 +5,7 @@ const BigSearch = () => {
     // const [search, setSearch] = useState('');
     return(
         <div className='bigSearch'>
-            <GoSearch size={80}/>
+            <GoSearch size={45}/>
             <input 
                 className='bigSearch__searchBox'
                 // onChange={(e) => setSearch(e.target.value)}

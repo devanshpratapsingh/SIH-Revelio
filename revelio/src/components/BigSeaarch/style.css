@@ -1,6 +1,6 @@
 .bigSearch{
-    width: 1130px;
-    height: 140px;
+    width: 800px;
+    height: 100px;
     
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -18,8 +18,8 @@
     flex: .95;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
+    font-weight: 300;
+    font-size: 32px;
     line-height: 80px;
     border-width:0px;
     border:none;

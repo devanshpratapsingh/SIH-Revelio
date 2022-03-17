@@ -1,7 +1,7 @@
 .home{
     padding-top: 120px;
     background: #170627;
-    height: 100vh;
+    height: 100%;
 }
 .home__body{
     display:flex;
@@ -14,15 +14,15 @@
 .home__body__heading{
         /* position: absolute; */
     width: 907px;
-    height: 250px;
+    height: 150px;
     /* left: 272px;
     top: 213px; */
 
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 100px;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 80px;
     /* or 94% */
 
     text-align: center;

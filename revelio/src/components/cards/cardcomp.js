@@ -1,17 +1,19 @@
 import React from 'react';
 import "./style.css"
+import Cards from '../DetailsCard/CardComponent'
 
 function CardCom() {
     return (
-      <div className="Cards">
-        <div className='img'>
-        <img className='img' src='https://drive.google.com/uc?export=view&id=197NOUxG174_z9lJmVKMN_4xTE9HpqaJh'
-        alt="Ranthambore" />
-        </div>
-        <div>
-            <h1>Hello</h1>
-        </div>
-      </div>
+      <>
+          <section id="home">
+              <h1 class="primary">RAJASTHAN</h1>
+              {/* <p>Lipsum dolor sit amet consectetur adipisicing elit. Quos explicabo tenetur, soluta id laborum</p>
+              <p>Lipsum dolor sit amet consectetur adipisicing elit.</p> */}
+              {/* <button class="btn">Login</button> */}
+          </section>
+          <Cards />
+          <Cards />
+          </>
     );
   }
   

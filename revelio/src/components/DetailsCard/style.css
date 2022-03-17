@@ -2,3 +2,10 @@
     height: 45%;
     width: 45%;
 }
+.display{
+    display:flex;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
