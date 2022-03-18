@@ -25,9 +25,21 @@ const Home = () => {
                     <div className='home__body__placeList__itme'>Tamil Nadu</div>
                 </div>
                 <div className='size'>
-                    <Car />
-                    <Car />
-                    <Car />
+                <Car 
+          title="Delhi"
+          image="https://drive.google.com/uc?export=view&id=1E1AwAZvjhnYOkAOdUWZvwHo33uacBcUg"
+          description="hflwiejfoweif"
+          />
+                    <Car 
+          title="Rajasthan"
+          image="https://drive.google.com/uc?export=view&id=1L7UvSQp3NIjH8voi3byHdcyhwbp8ST2_"
+          description="hflwiejfoweif"
+          />
+          <Car 
+          title="Agra"
+          image="https://drive.google.com/uc?export=view&id=1tfcguGmQKAnILA0PPsqbzkHsUTHsFORw"
+          description="hflwiejfoweif"
+          />
                 </div>
             </div>
         </div>

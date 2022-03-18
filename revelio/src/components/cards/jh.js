@@ -1,13 +1,12 @@
 import React from 'react';
-import "./style.css"
+import "./jh.css"
 import Car from '../DetailsCard/car'
 
-
-function CardCom() {
+function Jharkhand() {
     return (
       <>
           <section id="home">
-              <h1 class="primary">RAJASTHAN</h1>
+              <h1 class="primary">JHARKHAND</h1>
               {/* <p>Lipsum dolor sit amet consectetur adipisicing elit. Quos explicabo tenetur, soluta id laborum</p>
               <p>Lipsum dolor sit amet consectetur adipisicing elit.</p> */}
               {/* <button class="btn">Login</button> */}
@@ -24,4 +23,4 @@ function CardCom() {
     );
   }
   
-  export default CardCom;
+  export default Jharkhand;

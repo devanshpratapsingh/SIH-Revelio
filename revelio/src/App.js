@@ -5,6 +5,11 @@ import Cards from './components/DetailsCard/CardComponent';
 import Home from './pages/Home';
 import Car from './components/DetailsCard/car';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MP from './components/cards/mp';
+import Kerala from './components/cards/kerala';
+import Jharkhand from './components/cards/jh';
+import UP from './components/cards/up';
+import Delhi from './components/cards/delhi';
 
 function App() {
   return (
@@ -12,8 +17,13 @@ function App() {
         {/* <CardCom /> */}
         {/* <Cards /> */}
         <Home />
-        {/* <Car />
-        <Car /> */}
+        {/* <MP />  */}
+        {/* <Kerala/> */}
+        {/* <Jharkhand/> */}
+        {/* <UP/> */}
+        {/* <Delhi/> */}
+        {/* <Car /> */}
+        {/* <Car /> */}
     </div>
   );
 }

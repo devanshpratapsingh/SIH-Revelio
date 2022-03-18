@@ -1,13 +1,12 @@
 import React from 'react';
-import "./style.css"
+import "./up.css"
 import Car from '../DetailsCard/car'
 
-
-function CardCom() {
+function UP() {
     return (
       <>
           <section id="home">
-              <h1 class="primary">RAJASTHAN</h1>
+              <h1 class="primary">UTTAR PRADESH</h1>
               {/* <p>Lipsum dolor sit amet consectetur adipisicing elit. Quos explicabo tenetur, soluta id laborum</p>
               <p>Lipsum dolor sit amet consectetur adipisicing elit.</p> */}
               {/* <button class="btn">Login</button> */}
@@ -20,8 +19,9 @@ function CardCom() {
           />
           <Car />
           </div>
+          
           </>
     );
   }
   
-  export default CardCom;
+  export default UP;

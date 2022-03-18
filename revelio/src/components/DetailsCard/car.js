@@ -5,6 +5,11 @@ import React from "react";
 	import { Fade } from "react-reveal";
 
     function Car(props) {
+
+      const title = props.title;
+      const description = props.description;
+      const image = props.image;
+
 		return (
         //     <Card className="size">
         //     <CardImg
@@ -53,16 +58,15 @@ import React from "react";
         // </Card>
 
         <Card className="mar" style={{ width: '20rem' }}>
-  <Card.Img variant="top" src="https://drive.google.com/uc?export=view&id=197NOUxG174_z9lJmVKMN_4xTE9HpqaJh" />
+  <Card.Img variant="top" src={image} />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>{title}</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      {description}
     </Card.Text>
     <div className="but">
-    <Button variant="primary">Go somewhere</Button>
-    <Button variant="primary">Go somewhere</Button>
+    <Button variant="primary">Book Now</Button>
+    <Button variant="primary">Details</Button>
     </div>
   </Card.Body>
 </Card>
