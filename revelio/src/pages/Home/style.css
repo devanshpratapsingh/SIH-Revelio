@@ -1,6 +1,7 @@
 .home{
     padding-top: 120px;
     background: #170627;
+    /* background: #FFA62B; */
     height: 100%;
 }
 .home__body{
@@ -59,15 +60,21 @@
 
     font-family: 'Be Vietnam pro';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 26px;
     letter-spacing: 0.05em;
     text-transform: capitalize;
 
     color: rgba(255, 255, 255, 0.6);
+    /* color: #EDE7E3; */
 
 }
 .size{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    margin: 0 40px;
+    /* margin-top: 60px; */
 }

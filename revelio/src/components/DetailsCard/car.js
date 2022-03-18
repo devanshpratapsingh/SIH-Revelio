@@ -58,11 +58,15 @@ import React from "react";
         // </Card>
 
         <Card className="mar" style={{ width: '20rem' }}>
-  <Card.Img variant="top" src={image} />
+  <Card.Img variant="top" src={props.image} />
   <Card.Body>
-    <Card.Title>{title}</Card.Title>
+    <Card.Title>{props.name}</Card.Title>
     <Card.Text>
-      {description}
+      {props.desc.length > 100
+          ? props.desc
+                .slice(0, 100)
+                .concat('...')
+          : props.desc}
     </Card.Text>
     <div className="but">
     <Button variant="primary">Book Now</Button>
