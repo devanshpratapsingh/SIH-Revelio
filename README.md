@@ -1,7 +1,18 @@
 # SIH-Revelio
-![landing](https://user-images.githubusercontent.com/54949307/158945465-5e590835-680d-44d8-98a1-a0d3d57258b3.png)
 <p align="center">
-  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/1.png" width="1050">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/1.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/2.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/3.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/4.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/5.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/6.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/7.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/8.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/9.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/10.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/11.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/12.png" width="950">
+  <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/13.png" width="950">
 </p>
 
 
