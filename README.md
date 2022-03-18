@@ -1,7 +1,6 @@
 # SIH-Revelio
 <p align="center">
   <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/1.png" width="850">
-  <hr>
   <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/2.png" width="850">
   <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/3.png" width="850">
   <img src="https://github.com/devanshpratapsingh/SIH-Revelio/blob/main/revelio/images/4.png" width="850">
