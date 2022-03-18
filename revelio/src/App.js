@@ -5,16 +5,16 @@ import Cards from './components/DetailsCard/CardComponent';
 import Home from './pages/Home';
 import Car from './components/DetailsCard/car';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Search from './pages/Search';
 function App() {
   return (
-    <div className="App">
-        {/* <CardCom /> */}
-        {/* <Cards /> */}
-        <Home />
-        {/* <Car />
-        <Car /> */}
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/search" element={<Search />} />
+      </Routes>
+    </Router>
   );
 }
 
