@@ -6,10 +6,6 @@ import React from "react";
 
     function Car(props) {
 
-      const title = props.title;
-      const description = props.description;
-      const image = props.image;
-
 		return (
         //     <Card className="size">
         //     <CardImg
